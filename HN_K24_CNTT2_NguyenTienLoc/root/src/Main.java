@@ -109,5 +109,9 @@ public class Main {
             }
         }
         System.out.println("Da sap xep theo hoc luc giam dan");
+        System.out.println("Ma | Ten | Diem | Hoc luc");
+    for (Student s : list) {
+        System.out.println(s);
+    }
     }
 }
